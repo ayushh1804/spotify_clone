@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your Faviourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+
+        <div class="songlist">
+            <h1>Top Songs of the Week</h1>
+        </div>
+        <div class="songitemcontainer">
+
+            <div class="songItem">
+                <img src="https://source.unsplash.com/40x40/?guitar" alt="1">
+                <span>Let Me Love You</span>
+                <span class="songlistplay"><span class="timestamp">05:34</span><i class="fas fa-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="https://source.unsplash.com/40x40/?song" alt="1">
+                <span>Despacito</span>
+                <span class="songlistplay"><span class="timestamp">05:34</span><i class="fas fa-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="https://source.unsplash.com/40x40/?music" alt="1">
+                <span>Skyfall</span>
+                <span class="songlistplay"><span class="timestamp">05:34</span><i class="fas fa-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="https://source.unsplash.com/40x40/?nature" alt="1">
+                <span>Perfect</span>
+                <span class="songlistplay"><span class="timestamp">05:34</span><i class="fas fa-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="https://source.unsplash.com/40x40/?dance" alt="1">
+                <span>Coconut Tree</span>
+                <span class="songlistplay"><span class="timestamp">05:34</span><i class="fas fa-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="https://source.unsplash.com/40x40/?dj" alt="1">
+                <span>Happier</span>
+                <span class="songlistplay"><span class="timestamp">05:34</span><i class="fas fa-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="https://source.unsplash.com/40x40/?drum" alt="1">
+                <span>What Do I Know?</span>
+                <span class="songlistplay"><span class="timestamp">05:34</span><i class="fas fa-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="https://source.unsplash.com/40x40/?concert" alt="1">
+                <span>Hey Hey Hey</span>
+                <span class="songlistplay"><span class="timestamp">05:34</span><i class="fas fa-play"></i></span>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+
+
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" max="100">
+        <div class="icons">
+            <i class="fas fa-3x fa-step-backward"></i>
+            <i class="fas fa-3x fa-play" id="masterplay"></i>
+            <i class="fas fa-3x fa-step-forward"></i>
+            <!-- fontawesome icons -->
+        </div>
+
+        <div class="songinfo">
+            <img src="playing.gif" width="42px" alt=""> Let me Love You - Justin Beiber
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/b3a7ede91d.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
